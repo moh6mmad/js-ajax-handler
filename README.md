@@ -1,7 +1,23 @@
 
 # Ajax Form Hanlder
 
-This package helps you to submit any form via ajax
+This package helps you to submit any form via ajax. 
+
+## Installation
+Simply include the required JS file into your main js application.
+```import jah from '@mohamm6d/js-ajax-handler';```
+There are some few options also are available
+```
+jah({
+    loader:false,
+    lockform:true,
+    alerts:true,
+    alertTimers:4000,
+});
+```
+
+If you would have all alert styles as well, simply include the scss file into your style file:
+```@import '@mohamm6d/js-ajax-handler/jah-style.scss';```
 
 ## Badges
 
